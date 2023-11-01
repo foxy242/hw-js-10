@@ -19,10 +19,15 @@ const cards = [
 // Працюємо з колекцією карток в trello.  Метод splice() (можна використати інші методи)
 // task 3
 const cardToRemove = 'карточка-3';
-Видалити
+console.log(cardToRemove.indexOf('карточка-3'))
+// Видалити
 // task 4
 const cardToInsert = 'карточка-6';
-Додати
+cardToInsert.push('карточка-6')
+console.log(cardToInsert)
+// Додати
 // task 5
 const cardToUpdate = 'карточка-4';
-Оновити
+cardToUpdate = 'карточка-6'
+console.log(cardToUpdate)
+// Оновити
